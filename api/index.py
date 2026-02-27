@@ -116,9 +116,3 @@ def get_rebates():
 def health_check():
     """Health check endpoint."""
     return jsonify({"status": "healthy", "service": "polymarket-rebates-api"})
-
-
-# Vercel serverless function handler
-def handler(request):
-    with app.request_context(request.environ):
-        return app.full_dispatch_request()
