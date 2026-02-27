@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+ENV/
+*.log
+.DS_Store
+rebates.csv
+rebates_output.json
+api.log
+nohup.out
